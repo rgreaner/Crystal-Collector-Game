@@ -1,0 +1,106 @@
+body {
+   background-image: url(../images/memphis-colorful.png);
+   overflow:hidden;
+   color:#36837a;
+}
+                /* Top of Page */
+#why {
+    margin-left: 400px;
+    margin-right: 10px;
+}
+
+
+h1 {
+    background-color:#f8cbe0;
+    text-align: center;
+    margin-right: 10px;
+}
+
+/* --------------------------------------------------------------------------------- */
+#information {
+    padding-left: 30px;
+    margin-left:20px;
+    padding-right: 50px;
+    margin-right: none;
+}
+.row {
+    margin:0;
+    padding:0;
+}
+
+#makeGreen {
+    background-color:#AFEEEE;
+    margin-left: 10px;
+    float:left;
+    margin-right: 10px;
+}
+
+#wL {
+    margin-left: 60px;
+}
+
+#winText {
+    padding-top: 50px;
+    text-align:center;
+    font-size: 30px;
+}
+#loseText {
+    padding-top: 50px;
+    text-align:center;
+    font-size: 30px;
+}
+
+
+/* --------------------------------Buttons-------------------------------------------------- */
+.shapeButtons {
+    height:100px;
+}
+#squiggle {
+    width: 100px;
+}
+#buttonFun {
+    margin-left: 300px;
+    margin-right: 10px;
+}
+
+
+/* --------------------------------------------User Info---------------------------------------------------------------- */
+
+
+.col-md-6 {
+    background-color:#b2dddf;
+    margin-right: 10px;
+}
+
+.col-md-3 {
+    background-color: #f8cbe0;
+    margin-right: 10px;
+    margin-left: 340px;
+}
+#computerOut {
+    padding-top: 40px;
+    text-align:center;
+    font-size: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 15px;
+}
+
+#compText {text-align:center;
+    padding-top: 50px;
+    font-size: 30px;}
+
+#runningOutOfNames {
+    margin-left: 50px;
+}
+
+#score {
+    background-color:#AFEEEE; 
+    padding-top: 50px;
+    text-align:center;
+    font-size: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 60px;
+}

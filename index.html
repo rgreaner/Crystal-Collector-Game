@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Shape Collector</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+</head>
+
+<body>
+    <div class="col-3" id="why"> 
+        <h1>Shape Collector</h1>
+    </div>
+
+<div class="row" id="wL">
+        <div class="col-md-4" id="makeGreen"> 
+                <p id="winText">Wins: <span id="winner"></span></p>
+                <p id="loseText">Losses: <span id="loser"></span> </p>
+    </div>
+    <div class="col-md-6" id="information">
+        <p>You will be given a random number at the start of the game.
+        </p>
+        <p>There are four crystals below. By clicking on a crystal, you will 
+            add a specific amount of points to your total score.
+        </p>
+        <p>You win the game by matching your total score to the random number
+            mentioned above.  You lose if your total score goes above the random number.
+        </p>
+        <p>The value of each crystal is hidden from you until you click on it.  Then it's up
+            to you to to figure out which shapes to use.
+        </p>
+        <p>Each time the game starts, the crystal's values will change.
+        </p>
+    </div>
+
+</div>
+<br>
+<div class="col-12" id="buttonFun">
+    <img class="shapeButtons" id="star"src="../Crystal-Collector-Game/assets/images/shape3.png" alt="Star">
+    <img class="shapeButtons" id="cylinder" src="../Crystal-Collector-Game/assets/images/shape1.jpg" alt="Cylinder">
+    <img class="shapeButtons" id="square"src="../Crystal-Collector-Game/assets/images/shape2.jpg" alt="Square">
+    <img class="shapeButtons" id="squiggle" src="../Crystal-Collector-Game/assets/images/shape4.jpg" alt="Squiggle">
+</div>
+<br>
+
+<div class="row" id="runningOutOfNames">
+        <div class"col-md-3">
+                <p id="score">Total Score: <span id="userAdd"></span></p>
+            </div>
+        <div class="col-md-3">
+            <p id="compText">Computer's Choice: <span id="computerOut"></span> </p>
+        
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+   
+</body>
+</html>
